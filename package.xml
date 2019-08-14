@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Koopzeker</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <stability>stable</stability>
     <license uri="http://www.centraalbeheer.nl/koopzeker">Koopzeker</license>
     <channel>community</channel>
@@ -10,9 +10,9 @@
     <description>Koopzeker is een verzekering die u als eigenaar van een webwinkel kunt sluiten bij Centraal Beheer Achmea. Met Koopzeker verzekert u de verzending en levering van aankopen van klanten. Gaat er iets mis bij de verzending of levering van de bestelling en komt u met de koper niet tot een oplossing? Dan zorgt Centraal Beheer Achmea voor bemiddeling en vergoeding van de schade van de klant. De vergoeding bedraagt maximaal &#x20AC; 2.500,- per bestelling en geldt voor leveringen binnen Nederland. </description>
     <notes>Met Koopzeker verzekert u de verzending en levering van aankopen van klanten.</notes>
     <authors><author><name>Sasa Simonovic</name><user>sasa</user><email>sasa.simonovic@younify.nl</email></author></authors>
-    <date>2013-01-22</date>
-    <time>11:17:33</time>
-    <contents><target name="magecommunity"><dir name="Younify"><dir name="Koopzeker"><dir name="Block"><file name="Script.php" hash="c6985467ddc714845864b19543a55e12"/></dir><file name="Centraal Beheer Achmea Koopzeker Magento handleiding.pdf" hash="7970c148223450eb9021f4fffc4304a6"/><dir name="Helper"><file name="Data.php" hash="8071c63444782294a9107df426c632c5"/></dir><dir name="Model"><dir name="Source"><file name="Width.php" hash="abbf7e83b016999f5a43c939c57a8dc3"/></dir><file name=".DS_Store" hash="84808502c88185caecc9457a346ab540"/></dir><dir name="etc"><file name="config.xml" hash="8f5968068ce66e6c0dd34979288d4d0d"/><file name="system.xml" hash="9c73ce740da4aeb2f3b20fdd92aee618"/></dir><file name=".DS_Store" hash="d8f75717f37340a1df6f11a19553d753"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Younify_Koopzeker.xml" hash="857853f792cd16e4670546e2adfce698"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="koopzeker"><file name="script.phtml" hash="7a7dcd49627fe1f43961fd616f5dde9f"/></dir></dir></dir></dir></dir></target></contents>
+    <date>2013-01-30</date>
+    <time>17:02:42</time>
+    <contents><target name="magecommunity"><dir name="Younify"><dir name="Koopzeker"><dir name="Block"><file name="Script.php" hash="c6985467ddc714845864b19543a55e12"/></dir><file name="Centraal Beheer Achmea Koopzeker Magento handleiding.pdf" hash="7970c148223450eb9021f4fffc4304a6"/><dir name="Helper"><file name="Data.php" hash="8071c63444782294a9107df426c632c5"/></dir><dir name="Model"><dir name="Source"><file name="Width.php" hash="abbf7e83b016999f5a43c939c57a8dc3"/></dir><file name=".DS_Store" hash="84808502c88185caecc9457a346ab540"/></dir><dir name="etc"><file name="config.xml" hash="8bff6b6e23448518b0cd0ea49c23d0f7"/><file name="system.xml" hash="9c73ce740da4aeb2f3b20fdd92aee618"/></dir><file name=".DS_Store" hash="431e6e5f73c9fd82cf15feab3bc99281"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Younify_Koopzeker.xml" hash="857853f792cd16e4670546e2adfce698"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="koopzeker"><file name="script.phtml" hash="7a7dcd49627fe1f43961fd616f5dde9f"/></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>5.3.6</max></php></required></dependencies>
 </package>
