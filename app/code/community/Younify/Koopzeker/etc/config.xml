@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!--
+	Younify Koopzeker
+
+	LICENSE
+
+	All material in this file is, unless otherwise stated, the property of
+	Younify B.V. Copyright and other intellectual property laws protect
+	these materials. Reproduction or retransmission of the materials, in whole
+	or in part, in any manner, without the prior written consent of the copyright
+	holder, is a violation of copyright law.
+
+	@category	Younify
+	@package	Younify_Koopzeker
+	@copyright	Copyright (c) 2009-2012 Younify B.V (http://younify.nl)
+	@author		Sasa Simonovic <sasa.simonovic@younify.nl>
+-->
+
+<config>
+	<modules>
+		<Younify_Koopzeker>
+			<version>1.0.1</version>
+		</Younify_Koopzeker>
+	</modules>
+	<global>
+		<blocks>
+			<koopzeker>
+				<class>Younify_Koopzeker_Block</class>
+			</koopzeker>
+		</blocks>
+		<models>
+			<koopzeker>
+				<class>Younify_Koopzeker_Model</class>
+			</koopzeker>
+		</models>
+		<helpers>
+			<koopzeker>
+				<class>Younify_Koopzeker_Helper</class>
+			</koopzeker>
+		</helpers>
+	</global>
+	<adminhtml>
+		<acl>
+			<resources>
+				<admin>
+					<children>
+						<system>
+							<children>
+								<config>
+									<children>
+										<koopzeker_conf translate="title" module="koopzeker">
+											<title>Koopzeker Script Settings</title>
+										</koopzeker_conf>
+									</children>
+								</config>
+							</children>
+						</system>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+	</adminhtml>
+	<default>
+		<koopzeker_conf>
+			<general>
+				<img_width>150</img_width>
+			</general>
+		</koopzeker_conf>
+	</default>
+</config>

@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Koopzeker",
+    "type": "magento-module",
+    "license": "Koopzeker",
+    "homepage": "",
+    "description": "Met Koopzeker verzekert u de verzending en levering van aankopen van klanten.",
+    "authors": [
+    {
+        "name": "Sasa Simonovic",
+        "email": "sasa.simonovic@younify.nl"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

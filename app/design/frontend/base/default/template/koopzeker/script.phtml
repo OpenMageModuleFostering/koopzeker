@@ -1,0 +1,8 @@
+<?php
+	$opt = Mage::getStoreConfig('koopzeker_conf/general');
+?>
+<?php if(isset($opt['debug']) && $opt['debug']): ?>
+<script src="<?php echo "//koopzeker-acc.e-id.nl/koopzeker.js?c={$opt['unique_code']}&w={$opt['img_width']}"; ?>" async></script>
+<?php else: ?>
+<script src="<?php echo "//koopzeker.centraalbeheer.nl/koopzeker.js?c={$opt['unique_code']}&w={$opt['img_width']}"; ?>" async></script>
+<?php endif; ?>
